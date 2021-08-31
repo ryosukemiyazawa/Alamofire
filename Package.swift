@@ -26,10 +26,10 @@
 import PackageDescription
 
 let package = Package(name: "Alamofire",
-                      platforms: [.macOS(.v10_12),
-                                  .iOS(.v10),
-                                  .tvOS(.v10),
-                                  .watchOS(.v3)],
+                      platforms: [.macOS(.v10_15),
+                                  .iOS(.v13),
+                                  .tvOS(.v13),
+                                  .watchOS(.v6)],
                       products: [.library(name: "Alamofire",
                                           targets: ["Alamofire"])],
                       targets: [.target(name: "Alamofire",
